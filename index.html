@@ -42,6 +42,7 @@
 
           // Build a block of HTML
           const jokeHtml = `
+            <img src=${joke.icon_url} alt="jokeImage" />
             <p><strong>${joke.value}</strong></p>
           `;
           document.querySelector('#joke').innerHTML = jokeHtml;
